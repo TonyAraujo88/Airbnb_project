@@ -77,10 +77,10 @@ body {
     align-items: center;
 }
 
-.last--menu--item button {
+.menu--button {
     background: transparent;
     color: #f7f7f7;
-    font-family: 'airbnb--black';
+    font-family: 'airbnb--light';
     font-size: 14px;
     font-weight: 600;
     padding: 12px 15px;
@@ -88,7 +88,34 @@ body {
     border: 0;
     cursor: pointer;
 }
+
 .menu--button:hover {
     background: #f7f7f7;
     color: #222222;
 }
+
+.menu--icon {
+    display: flex;  
+    border: 0;
+    padding: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.icon--globe {
+    font-size: 20px;
+}
+
+.menu--icon:hover {
+    background: #f7f7f7;
+    color: #222222;
+}
+
+.button--icons {
+
+}
+
+
+
