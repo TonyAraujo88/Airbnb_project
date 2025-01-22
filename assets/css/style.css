@@ -68,3 +68,21 @@ body {
 .logo {
     margin-left: 80px;
 }
+
+.last--menu--item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.last--menu--item button {
+    background: #f7f7f7;
+    color: #222222;
+    font-family: 'airbnb--black';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: 0;
+}
