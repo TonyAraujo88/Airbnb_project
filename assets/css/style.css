@@ -104,18 +104,38 @@ body {
     cursor: pointer;
 }
 
-.icon--globe {
-    font-size: 20px;
-}
-
 .menu--icon:hover {
     background: #f7f7f7;
     color: #222222;
 }
 
-.button--icons {
-
+.icon--globe {
+    font-size: 20px;
 }
 
+.button--icons {
+    background: #ffffff;
+    color: grey;
+    font-family: 'airbnb--light';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.icon--button {
+    font-size: 33px;
+}
+
+.icon--button--menu {
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
 
 
