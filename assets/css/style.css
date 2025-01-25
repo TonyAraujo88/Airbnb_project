@@ -8,6 +8,11 @@
     src: url(../fonts/AirbnbCerealLight.ttf);
 }
 
+@font-face {
+    font-family: 'airbnb--bold';
+    src: url(../fonts/AirbnbCerealBold.ttf);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -248,4 +253,42 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.natureza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+.o--melhor {
+    font-size: 58px;
+    font-family: 'airbnb--bold';
+    color: #f7f7f7;
+}
+
+.o--melhor--2 {
+    font-size: 55px;
+    font-family: 'airbnb--bold';
+    color: #f7f7f7;
+    margin-top: -20px;
+}
+
+.sujestoes {
+    font-size: 20px;
+    font-family: 'airbnb--light';
+    color: #f7f7f7;
+    margin-top: 3px;
+}
+
+.inspire {
+    background: #f7f7f7;
+    width: 95px;
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-family: 'airbnb--bold';
+    font-size: 14px;
+    color: #222222;
 }
