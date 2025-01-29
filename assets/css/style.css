@@ -364,7 +364,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .lugar--item {
@@ -390,7 +390,50 @@ body {
     padding: 10px 80px;
 }
 
-.imagem--hospedar {
-    background-image: url('../imagens/hospedar.jpg');
-    background-repeat: no-repeat;
+.imagem--hospedar {    
+    background-image: url('../imagens/hospedar.jpg');    
+    background-size: cover;
+    height: 650px;
+    max-width: 1590px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagem--hospedar b {
+    color: #f7f7f7;
+    margin-left: 80px;
+    font-family: 'airbnb--light';
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -50px;
+}
+
+.imagem--hospedar button {
+    color:#222222;
+    background: #f7f7f7;
+    border: 0;
+    padding: 15px 20px;
+    font-family: 'airbnb--bold';
+    font-size: 16px;
+    width: 125px;
+    margin-left: 80px;
+    border-radius: 12px;
+}
+
+.p--1 {
+    font-size: 65px;
+    color: #f7f7f7;
+    margin-left: 80px;
+    font-family: 'airbnb--bold';
+    margin-top: -10px;
+}
+
+.p--2 {
+    font-size: 65px;
+    color: #f7f7f7;
+    margin-left: 80px;
+    font-family: 'airbnb--bold';
+    margin-top: -65px;
 }
