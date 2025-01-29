@@ -357,3 +357,40 @@ body {
     width: 100%;
     max-width: 65px;
 }
+
+.lugares {
+    height: 310px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.lugar--item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.lugar--item img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 12px;
+}
+
+.lugar--item p {
+    font-family: 'airbnb--bold';
+    color: #222222;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.hospedar {
+    padding: 10px 80px;
+}
+
+.imagem--hospedar {
+    background-image: url('../imagens/hospedar.jpg');
+    background-repeat: no-repeat;
+}
