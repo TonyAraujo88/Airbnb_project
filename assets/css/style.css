@@ -294,6 +294,7 @@ d    font-size: 18px;
 }
 
 .explore {
+    margin-left: 80px;
     font-family: 'airbnb--bold';
     font-size: 30px;
     font-weight: 900;
@@ -301,5 +302,13 @@ d    font-size: 18px;
 }
 
 .locais {
+    height: 80px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
+.local--item {
+    flex: 1;
 }
