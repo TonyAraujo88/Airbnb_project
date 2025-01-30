@@ -69,6 +69,7 @@ body {
    font-family: 'airbnb--light';
    font-weight: 500;
    font-size: 17px;
+   color: #f7f7f7;
 }
 
 .logo {
@@ -144,7 +145,7 @@ body {
 }
 
 .buscas {
-    height: 70px;
+    height: 65px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -204,7 +205,7 @@ body {
     height: 35px;
     width: 1px;
     background: rgb(155, 155, 155);
-    margin-left: 270px;
+    margin-left: 250px;
 }
 
 .separator--2 {
@@ -220,7 +221,7 @@ body {
     height: 35px;
     width: 1px;
     background: rgb(155, 155, 155);
-    margin-left: 160px;
+    margin-left: 125px;
 }
 
 .itens--4 {
@@ -363,7 +364,7 @@ body {
     padding: 10px 80px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    
     margin-top: 15px;
 }
 
@@ -393,8 +394,7 @@ body {
 .imagem--hospedar {    
     background-image: url('../imagens/hospedar.jpg');    
     background-size: cover;
-    height: 650px;
-    max-width: 1590px;
+    height: 400px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -406,7 +406,7 @@ body {
     margin-left: 80px;
     font-family: 'airbnb--light';
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: -50px;
 }
 
@@ -423,7 +423,7 @@ body {
 }
 
 .p--1 {
-    font-size: 65px;
+    font-size: 45px;
     color: #f7f7f7;
     margin-left: 80px;
     font-family: 'airbnb--bold';
@@ -431,9 +431,15 @@ body {
 }
 
 .p--2 {
-    font-size: 65px;
+    font-size: 45px;
     color: #f7f7f7;
     margin-left: 80px;
     font-family: 'airbnb--bold';
     margin-top: -65px;
+}
+
+.atividades {
+    margin-left: 80px;
+    font-family: 'airbnb--light';
+    font-size: 25px;
 }
