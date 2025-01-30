@@ -458,7 +458,9 @@ body {
 .atividade--item {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 
 .atividade--item img {
@@ -466,4 +468,19 @@ body {
     max-width: 380px;
     height: 380px;
     border-radius: 10px;
+}
+
+.atividade--item b {
+    font-family: 'airbnb--bold';
+    color: #222222;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.atividade--item p {
+    font-family: 'airbnb--light';
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -1px;
 }
