@@ -441,5 +441,29 @@ body {
 .atividades {
     margin-left: 80px;
     font-family: 'airbnb--light';
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #222222;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.todo--atividades {
+    padding: 10px 80px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.atividade--item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.atividade--item img {
+    width: 100%;
+    max-width: 380px;
+    height: 380px;
+    border-radius: 10px;
 }
