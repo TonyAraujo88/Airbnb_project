@@ -299,7 +299,7 @@ body {
     font-family: 'airbnb--bold';
     font-size: 30px;
     font-weight: 900;
-    color: #222222;
+    color: #222222;    
 }
 
 .locais {
@@ -557,8 +557,22 @@ body {
     margin-left: 25px;
 }
 
+.portugues {
+    margin-left: 5px !important;
+    
+}
+
 .icon--globe--footer {
     font-size: 20px;
     color: rgb(68, 68, 68);
     margin-right: 10px;
 }
+
+.social {
+    display: flex;
+    width: 25px;
+    height: 25px;   
+    color: rgb(68, 68, 68);
+    margin-right: 40px;
+}
+
